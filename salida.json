@@ -1,0 +1,108 @@
+{
+"127.0.0.1": {"privada": true,"uNo": ["elastic_user_7"],"uSi": ["elastic_user_7"]}
+,"85.245.107.41": {"privada": false,"uNo": ["elastic_user_0", "elastic_user_2", "elastic_user_6", "elastic_user_3", "elastic_user_8", "elastic_user_9", "elastic_user_5", "elastic_user_1"],"uSi": ["elastic_user_2", "elastic_user_8", "elastic_user_5", "elastic_user_7", "elastic_user_0", "elastic_user_4", "elastic_user_3", "elastic_user_1", "elastic_user_9", "elastic_user_6"]}
+,"181.25.206.27": {"privada": false,"uNo": ["pi", "cloud"],"uSi": []}
+,"24.151.103.17": {"privada": false,"uNo": ["elastic_user_3", "elastic_user_4", "elastic_user_5", "elastic_user_8", "elastic_user_7", "elastic_user_6", "elastic_user_0"],"uSi": ["elastic_user_8", "elastic_user_0", "elastic_user_6", "elastic_user_7", "elastic_user_9", "elastic_user_1", "elastic_user_3", "elastic_user_2", "elastic_user_5", "elastic_user_4"]}
+,"95.93.96.191": {"privada": false,"uNo": [],"uSi": ["elastic_user_3", "elastic_user_9", "elastic_user_2"]}
+,"218.60.136.106": {"privada": false,"uNo": ["root"],"uSi": []}
+,"106.57.58.19": {"privada": false,"uNo": ["root"],"uSi": []}
+,"181.23.168.176": {"privada": false,"uNo": ["root"],"uSi": []}
+,"151.241.67.217": {"privada": false,"uNo": ["root"],"uSi": []}
+,"181.25.201.155": {"privada": false,"uNo": ["root", "openerp"],"uSi": []}
+,"111.40.168.90": {"privada": false,"uNo": ["root"],"uSi": []}
+,"122.189.198.238": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"60.187.118.40": {"privada": false,"uNo": ["pruebas"],"uSi": []}
+,"122.191.89.89": {"privada": false,"uNo": ["root"],"uSi": []}
+,"42.184.142.151": {"privada": false,"uNo": ["ajay"],"uSi": []}
+,"82.64.2.59": {"privada": false,"uNo": ["pi"],"uSi": []}
+,"114.32.100.101": {"privada": false,"uNo": ["pi"],"uSi": []}
+,"122.244.28.82": {"privada": false,"uNo": ["root"],"uSi": []}
+,"123.153.146.183": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"181.26.186.35": {"privada": false,"uNo": ["test", "guest", "monitor", "root"],"uSi": []}
+,"183.152.79.79": {"privada": false,"uNo": ["johnny"],"uSi": []}
+,"1.30.211.144": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"5.167.75.191": {"privada": false,"uNo": ["root"],"uSi": []}
+,"93.120.176.237": {"privada": false,"uNo": ["default"],"uSi": []}
+,"78.106.21.86": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"112.251.168.248": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"119.193.140.176": {"privada": false,"uNo": ["ubnt"],"uSi": []}
+,"58.19.144.50": {"privada": false,"uNo": ["ems"],"uSi": []}
+,"122.112.235.133": {"privada": false,"uNo": ["root"],"uSi": []}
+,"122.189.193.214": {"privada": false,"uNo": ["bin"],"uSi": []}
+,"49.4.143.105": {"privada": false,"uNo": ["root"],"uSi": []}
+,"61.166.73.66": {"privada": false,"uNo": ["webconfig"],"uSi": []}
+,"122.191.88.115": {"privada": false,"uNo": ["root"],"uSi": []}
+,"186.130.83.53": {"privada": false,"uNo": ["root"],"uSi": []}
+,"123.96.5.168": {"privada": false,"uNo": ["cubrid"],"uSi": []}
+,"111.40.30.206": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"188.18.252.218": {"privada": false,"uNo": ["root"],"uSi": []}
+,"125.107.136.165": {"privada": false,"uNo": ["pi"],"uSi": []}
+,"190.107.182.33": {"privada": false,"uNo": ["root"],"uSi": []}
+,"112.101.164.200": {"privada": false,"uNo": ["root"],"uSi": []}
+,"34.204.227.175": {"privada": false,"uNo": ["Blank"],"uSi": []}
+,"223.244.185.76": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"182.243.87.6": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"91.243.236.123": {"privada": false,"uNo": ["root"],"uSi": []}
+,"49.4.143.5": {"privada": false,"uNo": ["root"],"uSi": []}
+,"222.89.76.13": {"privada": false,"uNo": ["root"],"uSi": []}
+,"191.81.42.216": {"privada": false,"uNo": ["root"],"uSi": []}
+,"183.93.215.158": {"privada": false,"uNo": ["root"],"uSi": []}
+,"122.190.143.18": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"61.183.117.250": {"privada": false,"uNo": ["support"],"uSi": []}
+,"123.120.200.51": {"privada": false,"uNo": ["root"],"uSi": []}
+,"73.231.4.205": {"privada": false,"uNo": ["root"],"uSi": []}
+,"110.78.174.75": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"49.4.143.181": {"privada": false,"uNo": ["root"],"uSi": []}
+,"186.128.141.232": {"privada": false,"uNo": ["root"],"uSi": []}
+,"46.89.129.145": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"59.174.52.12": {"privada": false,"uNo": ["root"],"uSi": []}
+,"103.230.120.26": {"privada": false,"uNo": ["user1"],"uSi": []}
+,"122.189.197.241": {"privada": false,"uNo": ["root"],"uSi": []}
+,"123.119.111.172": {"privada": false,"uNo": ["root"],"uSi": []}
+,"123.164.142.82": {"privada": false,"uNo": ["root"],"uSi": []}
+,"175.162.187.121": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"60.165.208.28": {"privada": false,"uNo": ["root"],"uSi": []}
+,"218.91.34.237": {"privada": false,"uNo": ["root"],"uSi": []}
+,"49.84.87.84": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"222.187.86.51": {"privada": false,"uNo": ["root"],"uSi": []}
+,"77.231.252.103": {"privada": false,"uNo": ["root"],"uSi": []}
+,"95.190.198.34": {"privada": false,"uNo": ["root"],"uSi": []}
+,"94.154.25.149": {"privada": false,"uNo": ["root"],"uSi": []}
+,"183.146.159.20": {"privada": false,"uNo": ["ubnt"],"uSi": []}
+,"126.59.251.31": {"privada": false,"uNo": ["root"],"uSi": []}
+,"222.186.56.220": {"privada": false,"uNo": ["ubnt", "admin", "root"],"uSi": []}
+,"183.93.253.159": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"219.82.145.223": {"privada": false,"uNo": ["root"],"uSi": []}
+,"122.163.61.218": {"privada": false,"uNo": ["root", "ubnt", "admin"],"uSi": []}
+,"14.54.210.101": {"privada": false,"uNo": ["root"],"uSi": []}
+,"105.101.221.33": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"37.110.24.51": {"privada": false,"uNo": ["root"],"uSi": []}
+,"116.255.253.137": {"privada": false,"uNo": ["root"],"uSi": []}
+,"181.25.189.115": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"178.219.248.139": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"177.38.145.209": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"191.83.152.32": {"privada": false,"uNo": ["root"],"uSi": []}
+,"170.79.155.119": {"privada": false,"uNo": ["root"],"uSi": []}
+,"46.30.160.83": {"privada": false,"uNo": ["ubnt"],"uSi": []}
+,"201.178.245.106": {"privada": false,"uNo": ["root"],"uSi": []}
+,"181.211.173.182": {"privada": false,"uNo": ["root"],"uSi": []}
+,"122.144.136.83": {"privada": false,"uNo": ["root"],"uSi": []}
+,"1.189.205.173": {"privada": false,"uNo": ["root"],"uSi": []}
+,"181.23.26.185": {"privada": false,"uNo": ["root"],"uSi": []}
+,"201.27.216.125": {"privada": false,"uNo": ["root"],"uSi": []}
+,"179.208.151.103": {"privada": false,"uNo": ["root"],"uSi": []}
+,"119.193.140.203": {"privada": false,"uNo": ["root"],"uSi": []}
+,"182.243.85.75": {"privada": false,"uNo": ["root"],"uSi": []}
+,"61.174.116.31": {"privada": false,"uNo": ["root"],"uSi": []}
+,"111.40.166.130": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"186.129.147.223": {"privada": false,"uNo": ["root"],"uSi": []}
+,"37.78.105.176": {"privada": false,"uNo": ["root"],"uSi": []}
+,"58.100.135.31": {"privada": false,"uNo": ["root"],"uSi": []}
+,"221.194.44.190": {"privada": false,"uNo": ["root"],"uSi": []}
+,"178.161.33.80": {"privada": false,"uNo": ["root"],"uSi": []}
+,"179.38.76.250": {"privada": false,"uNo": ["admin"],"uSi": []}
+,"186.47.222.98": {"privada": false,"uNo": ["root"],"uSi": []}
+,"201.178.81.113": {"privada": false,"uNo": ["root", "admin", "ubnt"],"uSi": []}
+,"68.182.39.76": {"privada": false,"uNo": ["root"],"uSi": []}
+,"122.5.240.60": {"privada": false,"uNo": ["root"],"uSi": []}
+}
