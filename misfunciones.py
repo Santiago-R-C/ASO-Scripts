@@ -1,6 +1,6 @@
-#!/usr/bin/python3
 
 # Importaciones para las funciones de python
+from subprocess import run
 from unicodedata import normalize,category
 from bcrypt import gensalt, hashpw, checkpw
 import socket
@@ -205,3 +205,53 @@ date_of_birth(tzinfo=None, minimum_age=18, maximum_age=55).strftime("%d-%m-%Y"))
 
     return lUsuarios
 ####################################################################
+
+####################################################################
+def getInfoShadow():
+    pathShadow = '/etc/shadow'
+    dInfoShadow = {}
+    with open(pathShadow, 'r') as fr:
+        for l in fr:
+            ll = l.split(":")
+            dInfoShadow.setdefault(ll[0], len(ll[1]) > 5)
+    return dInfoShadow
+
+
+
+####################################################################
+def getInfoUsuarios():
+    dShadow = getInfoShadow()
+    aPasswd = "/etc/passwd"
+    dInfoUsuarios = {}
+    com = f"hostname"
+    nombre_equipo = run(com, shell=True, capture_output=True, text=True, check=True).stdout
+    with open(aPasswd, "r") as fr:
+            for l in fr.readlines():
+                dUsuario = {}
+                ll = l.split(":")
+                id = int(ll[2].strip())
+                if (1000 <= id <= 60000 or id == 0):
+                    # Implementación del id en el diccionario dUsuario
+                    dUsuario.setdefault("id", int(ll[2].strip()))
+
+                    # Implementación del grupoPrincipal y los gruposSecundarios en el diccionario dUsuario
+                    comando = f"groups {ll[0]}"
+                    salida = run(comando, shell=True, capture_output=True, text=True, check=True).stdout.split(":")[1].strip().split()
+                    dUsuario.setdefault("grupoPrin", str(salida[0]))
+                    dUsuario.setdefault("gruposSec", list(salida[1:]))
+                    
+                    # Implementación del tamHome y el pathHome en el diccionario dUsuario
+                    dUsuario.setdefault("pathHome", str(ll[5].strip()))
+                    comando = f"sudo du -sb {ll[5]}"
+                    salida = run(comando, shell=True, capture_output=True, text=True).stdout.strip().split()[0]
+                    dUsuario.setdefault("tamHome", salida)
+
+                    # Implementación de la shell en el diccionario dUsuario
+                    dUsuario.setdefault("shell", ll[6].strip())
+
+                    # Implementación de la contraseña en el diccionario dUsuario
+                    dUsuario.setdefault("inicia", dShadow[ll[0].strip()])
+
+                    # Agregamos el diccionario dUsuario al diccionario dInfoUsuarios
+                    dInfoUsuarios.setdefault(ll[0].strip(),dUsuario)
+    return nombre_equipo, dInfoUsuarios.items()
